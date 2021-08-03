@@ -2,13 +2,13 @@ _your zenodo badge here_
 
 # burleyson-etal_2021_tbdd
 
-**TBD**
+**Formulation and Calibration of a Model for Predicting the Short- and Long-Term Evolution of Total Electricity Loads in the United States**
 
-Jae Edmonds<sup>1\*</sup> and John Reilly<sup>1</sup>
+Casey D. Burleyson<sup>1\*</sup>, Casey McGrath<sup>1</sup>, Zarrar Khan<sup>1</sup>, Aowabin Rahman<sup>1</sup>, Chris Vernon<sup>1</sup>, Nathalie Voisin<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
 
-<sup>1 </sup> Institute for Energy Analysis, Oak Ridge Associated Universities, 1346 Connecticut Avenue, NW, Washington, DC 20036, USA
+<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
 
-\* corresponding author:  email@myorg.gov
+\* corresponding author: casey.burleyson@pnnl.gov
 
 ## Abstract
 TBD
@@ -22,41 +22,25 @@ TBD
 ## Data reference
 
 ### Input data
-Reference for each minted data source for your input data.  For example:
-
-Human, I.M. (2021). My input dataset name [Data set]. DataHub. https://doi.org/some-doi-number
+TBD
 
 ### Output data
-Reference for each minted data source for your output data.  For example:
-
-Human, I.M. (2021). My output dataset name [Data set]. DataHub. https://doi.org/some-doi-number
+TBD
 
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
-| model 1 | version | link to code repository | link to DOI dataset |
-| model 2 | version | link to code repository | link to DOI dataset |
-| component 1 | version | link to code repository | link to DOI dataset |
+| TELL | v1.0 | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
 Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
 
-
-1. Install the software components required to conduct the experiement from [Contributing modeling software](#contributing-modeling-software)
-2. Download and install the supporting input data required to conduct the experiement from [Input data](#input-data)
-3. Run the following scripts in the `workflow` directory to re-create this experiment:
+1. Download and unzip the input data required to conduct the experiment using the DOI link above.
+2. Run the following Matlab scripts in the `workflow` directory to process the raw data used in this experiment:
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
 | `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
-| `step_two.py` | Script to run the last part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
-
-4. Download and unzip the output data from my experiment [Output data](#output-data)
-5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
