@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# burleyson-etal_2021_tbdd
+# burleyson-etal_2021_tbd
 
 **Formulation and Calibration of a Model for Predicting the Short- and Long-Term Evolution of Total Electricity Loads in the United States**
 
