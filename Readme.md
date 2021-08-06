@@ -38,9 +38,9 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 1. Download and unzip the input data required to conduct the experiment using the DOI link above.
 2. Run the following Matlab scripts in the `workflow` directory to process the raw data used in this experiment:
 
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
+| Script Name | Description |
+| --- | --- |
+| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | Script to process the raw EIA-930 BA hourly load data into .mat and .csv file |
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
