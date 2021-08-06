@@ -33,8 +33,6 @@ TBD
 | TELL | v1.0 | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
-Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
-
 1. Download and unzip the input data required to conduct the experiment using the DOI link above.
 2. Run the following Matlab scripts in the `workflow` directory to process the raw data used in this experiment:
 
