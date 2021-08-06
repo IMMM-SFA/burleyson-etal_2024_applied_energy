@@ -40,11 +40,11 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 
 | Script Name | Description |
 | --- | --- |
-| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | Script to process the raw EIA-930 BA hourly load data into .mat and .csv file |
+| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | Script to process raw EIA-930 BA hourly load data from Excel files into .mat and .csv files |
 
 ## Reproduce my figures
 Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -i /path/to/inputs -o /path/to/outuptdir` |
+| Script Name | Description |
+| --- | --- |
+| `generate_figures.py` | Script to generate my figures |
