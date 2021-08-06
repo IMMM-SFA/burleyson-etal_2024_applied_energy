@@ -43,7 +43,7 @@ Fill in detailed info here or link to other documentation that is a thorough wal
 | `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | Script to process raw EIA-930 BA hourly load data from Excel files into .mat and .csv files |
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+1. Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
 | Script Name | Description |
 | --- | --- |
