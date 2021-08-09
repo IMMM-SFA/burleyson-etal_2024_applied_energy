@@ -38,7 +38,7 @@ TBD
 
 | Script Name | Description |
 | --- | --- |
-| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | Script to process raw EIA-930 BA hourly load data from Excel files into .mat and .csv files |
+| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | This script takes the raw EIA-930 hourly load data by balancing authority and converts it from .xlsx files into .mat and .csv files. |
 | `Process_BA_Service_Territory_CSV_Files_into_Matlab_Files.m` | This script takes as input .csv files containing the county mapping of utilities and balancing authorities (BAs) and processes the data into .mat files for easier use in subsequent scripts. |
 
 ## Reproduce my figures
