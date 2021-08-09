@@ -46,4 +46,4 @@ TBD
 
 | Script Name | Description |
 | --- | --- |
-| `Balancing_Authority_Service_Territory_Maps.m'| This script takes .mat files containing the county mapping of utilities and balancing authorities generates maps showing the spatial coverage of each balancing authority. |
+| `Balancing_Authority_Service_Territory_Maps.m`| This script takes .mat files containing the county mapping of utilities and balancing authorities generates maps showing the spatial coverage of each balancing authority. |
