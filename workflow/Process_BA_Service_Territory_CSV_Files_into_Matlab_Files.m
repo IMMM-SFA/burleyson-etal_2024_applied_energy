@@ -13,7 +13,7 @@ warning off all; clear all; close all;
 %              BEGIN USER INPUT SECTION               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Set some processing flags:
-year_to_process = 2016; % Year of data to process
+year_to_process = 2019; % Year of data to process
 
 % Set the data input directory:
 data_input_dir = '/Users/burl878/OneDrive - PNNL/Documents/Papers/2021_Burleyson_et_al_TELL/burleyson-etal_2021_tbd_data/';
