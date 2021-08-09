@@ -4,7 +4,7 @@
 % Pacific Northwest National Laboratory
 
 % This script takes the raw EIA-930 hourly load data by balancing authority
-% and converts it from .xlsx files into .mat and .csv files. The output
+% and convert it from .xlsx files into .mat and .csv files. The output
 % file format is given below. All times are in UTC. Missing values are reported as -9999
 % in the .csv output files and are reported as NaN in the .mat output files. 
 

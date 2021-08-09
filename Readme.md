@@ -39,11 +39,11 @@ TBD
 | Script Name | Description |
 | --- | --- |
 | `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | This script takes the raw EIA-930 hourly load data by balancing authority and converts it from .xlsx files into .mat and .csv files. |
-| `Process_BA_Service_Territory_CSV_Files_into_Matlab_Files.m` | This script takes as input .csv files containing the county mapping of utilities and balancing authorities (BAs) and processes the data into .mat files for easier use in subsequent scripts. |
+| `Process_BA_Service_Territory_CSV_Files_into_Matlab_Files.m` | This script takes as input .csv files containing the county mapping of utilities and balancing authorities and processes the data into .mat files for easier use in subsequent scripts. |
 
 ## Reproduce my figures
 1. Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
 | Script Name | Description |
 | --- | --- |
-| `generate_figures.py` | Script to generate my figures |
+| `Balancing_Authority_Service_Territory_Maps.m'| This script takes .mat files containing the county mapping of utilities and balancing authorities generates maps showing the spatial coverage of each balancing authority. |
