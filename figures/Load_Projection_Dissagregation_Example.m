@@ -1,4 +1,4 @@
-% Load_Projection_Dissagregation_Example.m
+% Load_Projection_Dissaggregation_Example.m
 % 20210808
 % Casey D. Burleyson
 % Pacific Northwest National Laboratory
@@ -147,45 +147,45 @@ set(gca,'LineWidth',3,'FontSize',21,'Box','on','Layer','top');
 text(0.1,0.95,'(c)','FontSize',21,'Units','normalized');
 title(['Fraction of ',ba_to_plot,' Load'],'FontSize',24);
 
-% subplot(4,4,11); hold on;
-% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7),'Color','g','LineWidth',1);
-% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7))]);
-% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-% ylabel('Demand [MWh]','FontSize',15); 
-% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-% text(0.015,0.92,'(d)','FontSize',15,'Units','normalized');
-% title([counties{1,2}],'FontSize',18);
-% 
-% subplot(4,4,12); hold on;
-% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7),'Color','m','LineWidth',1);
-% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7))]);
-% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-% ylabel('Demand [MWh]','FontSize',15); 
-% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-% text(0.015,0.92,'(e)','FontSize',15,'Units','normalized');
-% title([counties{2,2}],'FontSize',18);
-% 
-% subplot(4,4,15); hold on;
-% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7),'Color','c','LineWidth',1);
-% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7))]);
-% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-% ylabel('Demand [MWh]','FontSize',15); 
-% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-% text(0.015,0.92,'(f)','FontSize',15,'Units','normalized');
-% title([counties{3,2}],'FontSize',18);
-% 
-% subplot(4,4,16); hold on;
-% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7),'Color','b','LineWidth',1);
-% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7))]);
-% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-% ylabel('Demand [MWh]','FontSize',15); 
-% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-% text(0.015,0.92,'(g)','FontSize',15,'Units','normalized');
-% title([counties{4,2}],'FontSize',18);
+subplot(4,4,11); hold on;
+line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7),'Color','g','LineWidth',1);
+ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7))]);
+xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+ylabel('Demand [MWh]','FontSize',15); 
+set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+text(0.015,0.92,'(d)','FontSize',15,'Units','normalized');
+title([counties{1,2}],'FontSize',18);
+
+subplot(4,4,12); hold on;
+line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7),'Color','m','LineWidth',1);
+ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7))]);
+xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+ylabel('Demand [MWh]','FontSize',15); 
+set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+text(0.015,0.92,'(e)','FontSize',15,'Units','normalized');
+title([counties{2,2}],'FontSize',18);
+
+subplot(4,4,15); hold on;
+line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7),'Color','c','LineWidth',1);
+ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7))]);
+xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+ylabel('Demand [MWh]','FontSize',15); 
+set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+text(0.015,0.92,'(f)','FontSize',15,'Units','normalized');
+title([counties{3,2}],'FontSize',18);
+
+subplot(4,4,16); hold on;
+line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7),'Color','b','LineWidth',1);
+ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7))]);
+xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+ylabel('Demand [MWh]','FontSize',15); 
+set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+text(0.015,0.92,'(g)','FontSize',15,'Units','normalized');
+title([counties{4,2}],'FontSize',18);
 
 if save_images == 1
    set(gcf,'Renderer','zbuffer'); set(gcf,'PaperPositionMode','auto');
