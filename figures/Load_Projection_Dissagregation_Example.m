@@ -127,7 +127,7 @@ text(0.1,0.95,'(b)','FontSize',21,'Units','normalized');
 title(['Service Territory'],'FontSize',24);
 
 subplot(2,4,6); hold on;
-ax1 = usamap([lat_min lat_max],[lon_min lon_max]); colormap(ax1,jet(25));
+ax1 = usamap([lat_min lat_max],[lon_min lon_max]); colormap(ax1,flipud(bone(25)));
 states = shaperead('usastatelo','UseGeoCoords',true,'Selector',{@(name)~any(strcmp(name,{'Alaska','Hawaii'})),'Name'});
 faceColors = makesymbolspec('Polygon',{'INDEX',[1 numel(states)],'FaceColor',polcmap(numel(states))});
 faceColors.FaceColor{1,3} = faceColors.FaceColor{1,3}./faceColors.FaceColor{1,3};
@@ -137,59 +137,59 @@ for row = 1:size(BA_Service_Territory,1)
        patchm(shapefile_counties(find(shapefile_counties_fips(:,1) == BA_Service_Territory(row,1)),1).lat_vector,shapefile_counties(find(shapefile_counties_fips(:,1) == BA_Service_Territory(row,1)),1).lon_vector,0,'FaceVertexCData',BA_Service_Territory(row,4),'FaceColor','flat');
     end
 end
-scatterm(counties{1,3},counties{1,4},120,'d','filled','MarkerFaceColor','w','MarkerEdgeColor','k','LineWidth',2);
-scatterm(counties{2,3},counties{2,4},120,'d','filled','MarkerFaceColor','w','MarkerEdgeColor','k','LineWidth',2);
-scatterm(counties{3,3},counties{3,4},120,'d','filled','MarkerFaceColor','w','MarkerEdgeColor','k','LineWidth',2);
-scatterm(counties{4,3},counties{4,4},120,'d','filled','MarkerFaceColor','w','MarkerEdgeColor','k','LineWidth',2);
+scatterm(counties{1,3},counties{1,4},200,'d','filled','MarkerFaceColor','g','MarkerEdgeColor','k','LineWidth',2);
+scatterm(counties{2,3},counties{2,4},200,'d','filled','MarkerFaceColor','m','MarkerEdgeColor','k','LineWidth',2);
+scatterm(counties{3,3},counties{3,4},200,'d','filled','MarkerFaceColor','c','MarkerEdgeColor','k','LineWidth',2);
+scatterm(counties{4,3},counties{4,4},200,'d','filled','MarkerFaceColor','b','MarkerEdgeColor','k','LineWidth',2);
 set(gca,'clim',[0,0.1]); colo = colorbar;
 tightmap; framem on; gridm off; mlabel off; plabel off;
 set(gca,'LineWidth',3,'FontSize',21,'Box','on','Layer','top');
 text(0.1,0.95,'(c)','FontSize',21,'Units','normalized');
 title(['Fraction of ',ba_to_plot,' Load'],'FontSize',24);
 
-subplot(4,4,11); hold on;
-line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7),'Color','r','LineWidth',1);
-ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7))]);
-xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-ylabel('Demand [MWh]','FontSize',15); 
-set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-text(0.015,0.92,'(d)','FontSize',15,'Units','normalized');
-title([counties{1,2}],'FontSize',18);
-
-subplot(4,4,12); hold on;
-line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7),'Color','r','LineWidth',1);
-ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7))]);
-xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-ylabel('Demand [MWh]','FontSize',15); 
-set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-text(0.015,0.92,'(e)','FontSize',15,'Units','normalized');
-title([counties{2,2}],'FontSize',18);
-
-subplot(4,4,15); hold on;
-line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7),'Color','r','LineWidth',1);
-ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7))]);
-xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-ylabel('Demand [MWh]','FontSize',15); 
-set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-text(0.015,0.92,'(f)','FontSize',15,'Units','normalized');
-title([counties{3,2}],'FontSize',18);
-
-subplot(4,4,16); hold on;
-line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7),'Color','r','LineWidth',1);
-ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7))]);
-xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
-set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
-ylabel('Demand [MWh]','FontSize',15); 
-set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
-text(0.015,0.92,'(g)','FontSize',15,'Units','normalized');
-title([counties{4,2}],'FontSize',18);
+% subplot(4,4,11); hold on;
+% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7),'Color','g','LineWidth',1);
+% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{1,1}),4).*BA_Future_Load(:,7))]);
+% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+% ylabel('Demand [MWh]','FontSize',15); 
+% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+% text(0.015,0.92,'(d)','FontSize',15,'Units','normalized');
+% title([counties{1,2}],'FontSize',18);
+% 
+% subplot(4,4,12); hold on;
+% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7),'Color','m','LineWidth',1);
+% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{2,1}),4).*BA_Future_Load(:,7))]);
+% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+% ylabel('Demand [MWh]','FontSize',15); 
+% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+% text(0.015,0.92,'(e)','FontSize',15,'Units','normalized');
+% title([counties{2,2}],'FontSize',18);
+% 
+% subplot(4,4,15); hold on;
+% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7),'Color','c','LineWidth',1);
+% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{3,1}),4).*BA_Future_Load(:,7))]);
+% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+% ylabel('Demand [MWh]','FontSize',15); 
+% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+% text(0.015,0.92,'(f)','FontSize',15,'Units','normalized');
+% title([counties{3,2}],'FontSize',18);
+% 
+% subplot(4,4,16); hold on;
+% line(BA_Future_Load(:,1),BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7),'Color','b','LineWidth',1);
+% ylim([min(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7)) max(BA_Service_Territory(find(BA_Service_Territory(:,1) == counties{4,1}),4).*BA_Future_Load(:,7))]);
+% xlim([datenum(2019,1,1,0,0,0) datenum(2020,1,1,0,0,0)]);
+% set(gca,'xtick',[737426,737791],'xticklabel',{'2019','2020'});
+% ylabel('Demand [MWh]','FontSize',15); 
+% set(gca,'LineWidth',1,'FontSize',15,'Box','on','Layer','top');
+% text(0.015,0.92,'(g)','FontSize',15,'Units','normalized');
+% title([counties{4,2}],'FontSize',18);
 
 if save_images == 1
    set(gcf,'Renderer','zbuffer'); set(gcf,'PaperPositionMode','auto');
-   print(a,'-dpng','-r150',[image_output_dir,'Load_Projection_Dissagregation_Example_',ba_to_plot,'.png']);
+   print(a,'-dpng','-r300',[image_output_dir,'Load_Projection_Dissagregation_Example_',ba_to_plot,'.png']);
    close(a);
 end
 clear a ax1 colo counties faceColors lat_max lat_min lon_max lon_min row states y_max y_min
