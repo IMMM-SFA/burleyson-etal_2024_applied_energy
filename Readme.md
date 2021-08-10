@@ -48,3 +48,4 @@ TBD
 | --- | --- |
 | `Balancing_Authority_Service_Territory_Maps.m`| This script takes .mat files containing the county mapping of utilities and balancing authorities generates maps showing the spatial coverage of each balancing authority. |
 | `Load_Projection_Dissagregation_Example.m`| This script is used to demonstrate the forward prediction and spatial dissaggregation capability of TELL for a sample balancing authority. |
+| `Overlapping_Balancing_Authorities_Map.m`| This script is used to plot the number of balancing authorities operating in each county and to show one example county that contains multiple overlapping balancing authorities. |
