@@ -71,8 +71,8 @@ states = shaperead('usastatelo','UseGeoCoords',true,'Selector',{@(name)~any(strc
 faceColors = makesymbolspec('Polygon',{'INDEX',[1 numel(states)],'FaceColor',polcmap(numel(states))});
 faceColors.FaceColor{1,3} = faceColors.FaceColor{1,3}./faceColors.FaceColor{1,3};
 geoshow(ax1,states,'DisplayType','polygon','SymbolSpec',faceColors,'LineWidth',2,'LineStyle','-');
-% for row = 1:size(Population,1)
-for row = 300:500
+for row = 1:size(Population,1)
+% for row = 300:500
     if Population(row,1) ~= 11000
        patchm(shapefile_counties(find(shapefile_counties_fips(:,1) == Population(row,1)),1).lat_vector,shapefile_counties(find(shapefile_counties_fips(:,1) == Population(row,1)),1).lon_vector,0,'FaceVertexCData',Population(row,3),'FaceColor','flat');
     end
