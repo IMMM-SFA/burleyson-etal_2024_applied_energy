@@ -10,7 +10,7 @@ clear all; close all;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Set some processing flags:
 save_images = 1; % (1 = Yes)
-ba_code = 'CISO'; % Code of the balancing authority to process and plot
+ba_code = 'DUK'; % Code of the balancing authority to process and plot
 scenario_string = 'SSP 5, RCP 8.5, Hot';
 ef_bins = [0.90,0.95,0.98,0.99,0.999]';
 
@@ -148,16 +148,16 @@ subplot(2,2,4); hold on; cmap = jet(size(EF,1));
 for row = 1:size(EF,1)
     line(EF_Time(1,:)+5,EF(row,:),'Color',cmap(row,:),'LineWidth',4);
 end
-legend(['Historically 1 in 10 (',num2str(roundn(ef_bins(1,2),-1)),setstr(176),'F)'],...
-       ['Historically 1 in 20 (',num2str(roundn(ef_bins(2,2),-1)),setstr(176),'F)'],...
-       ['Historically 1 in 50 (',num2str(roundn(ef_bins(3,2),-1)),setstr(176),'F)'],...
-       ['Historically 1 in 100 (',num2str(roundn(ef_bins(4,2),-1)),setstr(176),'F)'],...
-       ['Historically 1 in 1000 (',num2str(roundn(ef_bins(5,2),-1)),setstr(176),'F)'],'Location','SouthWest');
+legend(['Historically 1 in 10 Hours (',num2str(roundn(ef_bins(1,2),-1)),setstr(176),'F)'],...
+       ['Historically 1 in 20 Hours (',num2str(roundn(ef_bins(2,2),-1)),setstr(176),'F)'],...
+       ['Historically 1 in 50 Hours (',num2str(roundn(ef_bins(3,2),-1)),setstr(176),'F)'],...
+       ['Historically 1 in 100 Hours (',num2str(roundn(ef_bins(4,2),-1)),setstr(176),'F)'],...
+       ['Historically 1 in 1000 Hours (',num2str(roundn(ef_bins(5,2),-1)),setstr(176),'F)'],'Location','SouthWest');
 xlim([2015 2095]); set(gca,'xtick',[2015:10:2095],'xticklabel',{'1980-2020','','2030-2040','','2050-2060','','2070-2080','','2090-2100'});
 set(gca,'ytick',[0:0.05:1],'yticklabel',{'100','95','90','85','80','75','70','65','60','55','50','45','40','35','30','25','20','15','10','5','0'});
 ylabel(['Exceedance Frequency [%]'],'FontSize',24);
 set(gca,'LineWidth',3,'FontSize',21,'Box','on','Layer','top')
-title(['Extreme Temperature Trends'],'FontSize',27)
+title(['Hourly Extreme Temperature Trends'],'FontSize',27)
 text(0.00,1.10,'(c)','FontSize',24,'Units','normalized');
 grid on
 clear row
