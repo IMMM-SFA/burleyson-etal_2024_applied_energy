@@ -10,7 +10,7 @@ clear all; close all;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Set some processing flags:
 save_images = 1; % (1 = Yes)
-ba_code = 'BPAT'; % Code of the balancing authority to process and plot
+ba_code = 'PJM'; % Code of the balancing authority to process and plot
 ef_bins = [0.90,0.95,0.98,0.99,0.999]';
 
 % Set the data input and image output directories:
@@ -180,7 +180,10 @@ title([ba_code,' Temperature Evolution: SSP5, RCP 8.5, Hot'],'FontSize',27)
 text(-0.10,1.15,'(a)','FontSize',24,'Units','normalized');
 clear colo
 
-ax2 = subplot(2,2,2); hold on; colormap(ax2,redblue(80));
+cmap = redblue(60);
+cmap2 = cmap(31:60,:);
+
+ax2 = subplot(2,2,2); hold on; colormap(ax2,redblue(60));
 pcolor(Time(1,:),[0:1:8783],Delta_T2_F_Hot); shading flat;
 line([1980 1980],[0 8760],'Color','k','LineWidth',3);
 line([2020 2020],[0 8760],'Color','k','LineWidth',3);
@@ -197,7 +200,7 @@ line([2090 2090],[0 8760],'Color','m','LineWidth',3);
 xlim([1980 2099]); set(gca,'xtick',[1980:10:2100],'xticklabel',{'1980','','2000','','2020','','2040','','2060','','2080','','2100'});
 ylim([0 8760]); set(gca,'ytick',([0,32,60,91,121,152,182,213,244,274,305,335].*24),'yticklabel',{'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'});
 % set(gca,'clim',[-1*max(abs(Delta_T2_F_Hot(:))) max(abs(Delta_T2_F_Hot(:)))]); 
-set(gca,'clim',[-20 20]); 
+set(gca,'clim',[-30 30]); 
 colo = colorbar('Location','EastOutside','ytickmode','manual'); 
 set(colo,'FontSize',18,'ytick',[-30:5:30],'yticklabel',{'-30','-25','-20','-15','-10','-5','0','+5','+10','+15','+20','+25','+30'});
 set(get(colo,'yLabel'),'String',['Temperature Perturbation [',setstr(176),'F]'],'FontSize',21); 
