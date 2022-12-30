@@ -1,6 +1,9 @@
 # sys files
 .DS_Store
 
+# Directories
+data/
+
 # -----------------
 # ---- PYTHON -----
 # -----------------
