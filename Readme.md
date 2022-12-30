@@ -1,17 +1,32 @@
 _your zenodo badge here_
 
-# burleyson-etal_2022_tbd
+# burleyson-etal_2023_tbd
 
-**Formulation and Calibration of a Model for Predicting the Short- and Long-Term Evolution of Total Electricity Loads in the United States**
+**When Do Different Scenarios of Future Electricity Demand Start to Meaningfully Diverge?**
 
-Casey D. Burleyson<sup>1\*</sup>, Casey McGrath<sup>1</sup>, Zarrar Khan<sup>1</sup>, Aowabin Rahman<sup>1</sup>, Chris Vernon<sup>1</sup>, Nathalie Voisin<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
+Casey D. Burleyson<sup>1\*</sup>, Misha Kulshresta<sup>1,2</sup>, Zarrar Khan<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
 
 <sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
+<sup>2 </sup> University of California, Santa Barbara, Santa Barbara, CA, USA
 
 \* corresponding author: casey.burleyson@pnnl.gov
 
 ## Abstract
-TBD
+Climate and population change are known to influence electricity demand, but what is the impact of uncertainty in 
+climate and population projections on electricity demand in the United States (U.S.) over the next 30 years? This 
+question has important implications for investment decisions in the energy sector, which are typically made using a 
+15- to 30-year time horizon. Simply put, if future climate and population scenarios do not lead to meteorological 
+conditions and subsequent energy demands that are distinctly different within the first 30 years then, for the purposes 
+of investment decisions, it may not matter which potential pathway we are most likely on. The Integrated, Multisector, 
+Multiscale Modeling (IM3) project has generated a wide, yet plausible range of 21st century high-resolution climate and 
+population scenarios for the U.S. The IM3 projections span two climate scenarios (Representative Concentration Pathways 
+4.5 and 8.5) and two population scenarios (Shared Socioeconomic Pathways 3 and 5). For each of the climate scenarios, 
+we reflect a range of climate model uncertainty by using boundary conditions from a set of climate models that are 
+hotter and colder than the multimodel mean. In total there are eight (2 x 2 x 2) IM3 scenarios. This work explores a 
+basic question: When do future climate and energy outcomes start to meaningfully diverge across the eight scenarios? 
+The analysis is done on both the raw meteorology time-series from each scenario as well as a time-series of projected 
+total electricity demand generated using IM3’s Total ELectricity Loads (TELL) model. We also explore the spatial 
+heterogeneity of the divergence signal to identify regions of the country that may be more or less path dependent.
 
 ## Journal reference
 TBD
@@ -33,19 +48,13 @@ TBD
 | TELL | v1.0 | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
-1. Download and unzip the input data required to conduct the experiment using the DOI link above.
-2. Run the following Matlab scripts in the `workflow` directory to process the raw data used in this experiment:
+1. TBD
 
 | Script Name | Description |
-| --- | --- |
-| `Process_Raw_EIA_930_BA_Hourly_Load_Data.m` | This script takes the raw EIA-930 hourly load data by balancing authority and converts it from .xlsx files into .mat and .csv files. |
-| `Process_BA_Service_Territory_CSV_Files_into_Matlab_Files.m` | This script takes as input .csv files containing the county mapping of utilities and balancing authorities and processes the data into .mat files for easier use in subsequent scripts. |
+|-------------|-------------|
 
 ## Reproduce my figures
 1. Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
 | Script Name | Description |
 | --- | --- |
-| `Balancing_Authority_Service_Territory_Maps.m`| This script takes .mat files containing the county mapping of utilities and balancing authorities generates maps showing the spatial coverage of each balancing authority. |
-| `Load_Projection_Dissagregation_Example.m`| This script is used to demonstrate the forward prediction and spatial dissaggregation capability of TELL for a sample balancing authority. |
-| `Overlapping_Balancing_Authorities_Map.m`| This script is used to plot the number of balancing authorities operating in each county and to show one example county that contains multiple overlapping balancing authorities. |
