@@ -6,7 +6,7 @@ _your zenodo badge here_
 
 Casey D. Burleyson<sup>1\*</sup>, Misha Kulshresta<sup>1,2</sup>, Zarrar Khan<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
 
-<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA 
+<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
 <sup>2 </sup> University of California, Santa Barbara, Santa Barbara, CA, USA
 
 \* corresponding author: casey.burleyson@pnnl.gov
