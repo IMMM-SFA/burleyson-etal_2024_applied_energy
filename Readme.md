@@ -46,7 +46,7 @@ TBD
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
 |:-----:|:-------:|:---------------:|:---:|
-| TELL | v1.0 | https://github.com/IMMM-SFA/tell | TBD |
+| TELL | v1.1 | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
 1. TBD
@@ -55,7 +55,8 @@ TBD
 |-------------|-------------|
 
 ## Reproduce my figures
-1. Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+1. Use the following notebooks found in the `notebooks` directory to reproduce the figures used in this publication.
 
-| Script Name | Description |
-| --- | --- |
+| Order |                Script Name                 |                                     Description                                      |
+|:-----:|:------------------------------------------:|:------------------------------------------------------------------------------------:|
+|   1   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads from TELL by interconnection |
