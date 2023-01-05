@@ -1,8 +1,5 @@
 # State Level Analyses
 >
-## Purpose
-This analysis looks at the evolution of demand for electricity for each state.
->
 | Name | Time Series |
 | :-: | :-: |
 | Alabama | <img src="figures/States/State_Load_Projections_Alabama.png" width="50"> |
