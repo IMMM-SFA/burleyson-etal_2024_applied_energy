@@ -38,7 +38,7 @@
 | Ohio | <img src="figures/States/State_Load_Projections_Ohio.png" width="50"> | <img src="figures/States/State_Load_Difference_Ohio.png" width="50"> |
 | Oklahoma | <img src="figures/States/State_Load_Projections_Oklahoma.png" width="50"> | <img src="figures/States/State_Load_Difference_Oklahoma.png" width="50"> |
 | Oregon | <img src="figures/States/State_Load_Projections_Oregon.png" width="50"> | <img src="figures/States/State_Load_Difference_Oregon.png" width="50"> |
-| Pennsylvania | <img src="figures/States/State_Load_Projections_Pennsylvania.png" width="50"> | <img src="figures/States/State_Load_Difference_Pennsylvania..png" width="50"> |
+| Pennsylvania | <img src="figures/States/State_Load_Projections_Pennsylvania.png" width="50"> | <img src="figures/States/State_Load_Difference_Pennsylvania.png" width="50"> |
 | Rhode Island | <img src="figures/States/State_Load_Projections_Rhode_Island.png" width="50"> | <img src="figures/States/State_Load_Difference_Rhode_Island.png" width="50"> |
 | South Carolina | <img src="figures/States/State_Load_Projections_South_Carolina.png" width="50"> | <img src="figures/States/State_Load_Difference_South_Carolina.png" width="50"> |
 | South Dakota | <img src="figures/States/State_Load_Projections_South_Dakota.png" width="50"> | <img src="figures/States/State_Load_Difference_South_Dakota.png" width="50"> |
