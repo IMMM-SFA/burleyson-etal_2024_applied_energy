@@ -60,3 +60,7 @@ TBD
 | Order |                Script Name                 |                                     Description                                      |
 |:-----:|:------------------------------------------:|:------------------------------------------------------------------------------------:|
 |   1   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads from TELL by interconnection |
+
+## Figure library
+[State-Level Analyses](States_Analysis.md)  
+[BA-Level Analyses](Balancing_Authorities_Analysis.md)
