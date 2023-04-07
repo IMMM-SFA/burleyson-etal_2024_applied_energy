@@ -34,15 +34,16 @@ Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). When d
 electricity demand start to meaningfully diverge? Submitted to *TBD* - April 2023.
 
 ## Code reference
-Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - TBD [Code]. Zenodo. TBD.
+Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
+TBD [Code]. Zenodo. TBD.
 
 ## Data references
 
 ### Input data
-|     Dataset     |               Repository Link                |               DOI                |
-|:---------------:|:--------------------------------------------:|:--------------------------------:|
-| GCAM-USA Output |                     TBD                      |               TBD                |
-| Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
+|       Dataset       |               Repository Link                |               DOI                |
+|:-------------------:|:--------------------------------------------:|:--------------------------------:|
+|   GCAM-USA Output   |                     TBD                      |               TBD                |
+| TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
 |    Dataset    | Repository Link | DOI |
@@ -65,13 +66,12 @@ Use the following notebooks to rerun the TELL model to produce the output data u
 ## Reproduce my figures
 Use the following notebooks to reproduce the figures used in this publication.
 
-| Order |                Script Name                 |                                Description                                 | Figure Numbers |
-|:-----:|:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
-|   1   |        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |      TBD       |
-|   2   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |      TBD       |
-|   3   |      state_time_series_analysis.ipynb      |              Analyzes the evolution of load changes by state               |      TBD       |
-|   4   |      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
-
+|                Script Name                 |                                Description                                 | Figure Numbers |
+|:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
+|        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |      TBD       |
+| interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |      TBD       |
+|      state_time_series_analysis.ipynb      |      Analyzes the time series of annual total and peak loads by state      |      TBD       |
+|      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
 
 ## Supplementary figures
 These landing pages show the complete results for each state and BA.
