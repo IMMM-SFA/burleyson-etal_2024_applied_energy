@@ -52,10 +52,10 @@ TBD [Code]. Zenodo. TBD.
 | Analysis Data |       TBD       | TBD |
 
 ## Contributing modeling software
-|  Model   | Version |         Repository Link          | DOI |
-|:--------:|:-------:|:--------------------------------:|:---:|
-| GCAM-USA |   TBD   |               TBD                | TBD |
-|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | TBD |
+|  Model   | Version |                                              Repository Link                                               | DOI |
+|:--------:|:-------:|:----------------------------------------------------------------------------------------------------------:|:---:|
+| GCAM-USA |  v5.3   |https://stash.pnnl.gov/projects/JGCRI/repos/gcam-core/browse?at=refs%2Fheads%2Fzk%2Ffeature%2Fgcam-usa-im3  | TBD |
+|   TELL   |  v1.1   |                                      https://github.com/IMMM-SFA/tell                                      | TBD |
 
 ## Reproduce my experiment
 Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
