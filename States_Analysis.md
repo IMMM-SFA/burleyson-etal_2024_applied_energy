@@ -58,3 +58,13 @@
 | :-: | :-: | :-: | :-: |
 | Socioeconomic Scenario Uncertainty | rcp45cooler_ssp3 | rcp45cooler_ssp5 | <img src="figures/States/Divergence_Maps_rcp45cooler_ssp5_vs_rcp45cooler_ssp3.png" width="50"> |
 | Socioeconomic Scenario Uncertainty | rcp45hotter_ssp3 | rcp45hotter_ssp5 | <img src="figures/States/Divergence_Maps_rcp45hotter_ssp5_vs_rcp45hotter_ssp3.png" width="50"> |
+| Socioeconomic Scenario Uncertainty | rcp85cooler_ssp3 | rcp85cooler_ssp5 | <img src="figures/States/Divergence_Maps_rcp85cooler_ssp5_vs_rcp85cooler_ssp3.png" width="50"> |
+| Socioeconomic Scenario Uncertainty | rcp85hotter_ssp3 | rcp85hotter_ssp5 | <img src="figures/States/Divergence_Maps_rcp85hotter_ssp5_vs_rcp85hotter_ssp3.png" width="50"> |
+| Climate Scenario Uncertainty | rcp45cooler_ssp3 | rcp85cooler_ssp3 | <img src="figures/States/Divergence_Maps_rcp85cooler_ssp3_vs_rcp45cooler_ssp3.png" width="50"> |
+| Climate Scenario Uncertainty | rcp45hotter_ssp3 | rcp85hotter_ssp3 | <img src="figures/States/Divergence_Maps_rcp85hotter_ssp3_vs_rcp45hotter_ssp3.png" width="50"> |
+| Climate Scenario Uncertainty | rcp45cooler_ssp5 | rcp85cooler_ssp5 | <img src="figures/States/Divergence_Maps_rcp85cooler_ssp5_vs_rcp45cooler_ssp5.png" width="50"> |
+| Climate Scenario Uncertainty | rcp45hotter_ssp5 | rcp85hotter_ssp5 | <img src="figures/States/Divergence_Maps_rcp85hotter_ssp5_vs_rcp45hotter_ssp5.png" width="50"> |
+| Climate Model Uncertainty | rcp45cooler_ssp3 | rcp45hotter_ssp3 | <img src="figures/States/Divergence_Maps_rcp45hotter_ssp3_vs_rcp45cooler_ssp3.png" width="50"> |
+| Climate Model Uncertainty | rcp45cooler_ssp5 | rcp45hotter_ssp5 | <img src="figures/States/Divergence_Maps_rcp45hotter_ssp5_vs_rcp45cooler_ssp5.png" width="50"> |
+| Climate Model Uncertainty | rcp85cooler_ssp3 | rcp85hotter_ssp3 | <img src="figures/States/Divergence_Maps_rcp85hotter_ssp3_vs_rcp85cooler_ssp3.png" width="50"> |
+| Climate Model Uncertainty | rcp85cooler_ssp5 | rcp85hotter_ssp5 | <img src="figures/States/Divergence_Maps_rcp85hotter_ssp5_vs_rcp85cooler_ssp5.png" width="50"> |
