@@ -57,13 +57,13 @@ Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Suppor
 |   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
-1. TBD
+Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
 
 | Script Name | Description |
 |-------------|-------------|
 
 ## Reproduce my figures
-1. Use the following notebooks to reproduce the figures used in this publication.
+Use the following notebooks to reproduce the figures used in this publication.
 
 | Order |                Script Name                 |                                Description                                 | Figure Numbers |
 |:-----:|:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
@@ -73,7 +73,8 @@ Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Suppor
 |   4   |      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
 
 
-## Supplementary figure libraries
+## Supplementary figures
 These landing pages show the complete results for each state and BA.
+
 [State-Level Analyses](States_Analysis.md)  
 [BA-Level Analyses](Balancing_Authorities_Analysis.md)
