@@ -30,12 +30,13 @@ immediately, climate scenario matters within 25-30 years, and whether to use hot
 only after 50+ years.
 
 ## Journal reference
-TBD
+Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). When do different scenarios of projected 
+electricity demand start to meaningfully diverge? Submitted to *TBD* - April 2023.
 
 ## Code reference
-TBD
+Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - TBD [Code]. Zenodo. TBD.
 
-## Data reference
+## Data references
 
 ### Input data
 |     Dataset     |               Repository Link                |               DOI                |
@@ -44,7 +45,10 @@ TBD
 | Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
-TBD
+|    Dataset    | Repository Link | DOI |
+|:-------------:|:---------------:|:---:|
+|  TELL Output  |       TBD       | TBD |
+| Analysis Data |       TBD       | TBD |
 
 ## Contributing modeling software
 |  Model   | Version |         Repository Link          | DOI |
@@ -61,12 +65,15 @@ TBD
 ## Reproduce my figures
 1. Use the following notebooks to reproduce the figures used in this publication.
 
-| Order |                Script Name                 |                                Description                                 |
-|:-----:|:------------------------------------------:|:--------------------------------------------------------------------------:|
-|   1   | difference_calculation.ipynb.ipynb |           Shows how the mean and peak differences are calculated           |
-|   2   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |
+| Order |                Script Name                 |                                Description                                 | Figure Numbers |
+|:-----:|:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
+|   1   |        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |      TBD       |
+|   2   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |      TBD       |
+|   3   |      state_time_series_analysis.ipynb      |              Analyzes the evolution of load changes by state               |      TBD       |
+|   4   |      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
 
 
-## Figure library
+## Supplementary figure libraries
+These landing pages show the complete results for each state and BA.
 [State-Level Analyses](States_Analysis.md)  
 [BA-Level Analyses](Balancing_Authorities_Analysis.md)
