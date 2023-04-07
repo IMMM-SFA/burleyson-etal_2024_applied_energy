@@ -38,15 +38,19 @@ TBD
 ## Data reference
 
 ### Input data
-TBD
+|     Dataset     |               Repository Link                |               DOI                |
+|:---------------:|:--------------------------------------------:|:--------------------------------:|
+| GCAM-USA Output |                     TBD                      |               TBD                |
+| Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
 TBD
 
 ## Contributing modeling software
-| Model | Version | Repository Link | DOI |
-|:-----:|:-------:|:---------------:|:---:|
-| TELL | v1.1 | https://github.com/IMMM-SFA/tell | TBD |
+|  Model   | Version |         Repository Link          | DOI |
+|:--------:|:-------:|:--------------------------------:|:---:|
+| GCAM-USA |   TBD   |               TBD                | TBD |
+|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | TBD |
 
 ## Reproduce my experiment
 1. TBD
@@ -55,11 +59,13 @@ TBD
 |-------------|-------------|
 
 ## Reproduce my figures
-1. Use the following notebooks found in the `notebooks` directory to reproduce the figures used in this publication.
+1. Use the following notebooks to reproduce the figures used in this publication.
 
-| Order |                Script Name                 |                                     Description                                      |
-|:-----:|:------------------------------------------:|:------------------------------------------------------------------------------------:|
-|   1   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads from TELL by interconnection |
+| Order |                Script Name                 |                                Description                                 |
+|:-----:|:------------------------------------------:|:--------------------------------------------------------------------------:|
+|   1   | difference_calculation.ipynb.ipynb |           Shows how the mean and peak differences are calculated           |
+|   2   | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |
+
 
 ## Figure library
 [State-Level Analyses](States_Analysis.md)  
