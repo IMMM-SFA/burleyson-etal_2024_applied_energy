@@ -51,3 +51,8 @@
 | Wisconsin | <img src="figures/States/State_Load_Projections_Wisconsin.png" width="50"> | <img src="figures/States/State_Load_Difference_Wisconsin.png" width="50"> |
 | West Virginia | <img src="figures/States/State_Load_Projections_West_Virginia.png" width="50"> | <img src="figures/States/State_Load_Difference_West_Virginia.png" width="50"> |
 | Wyoming | <img src="figures/States/State_Load_Projections_Wyoming.png" width="50"> | <img src="figures/States/State_Load_Difference_Wyoming.png" width="50"> |
+>
+Map Plots Showing the First Year in Which the Scenarios Differ by More Than 5%
+| Group | Scenario One | Scenario Two | Map |
+| :-: | :-: | :-: | :-: |
+| Socioeconomic Scenario Uncertainty | rcp45cooler_ssp3 | rcp45cooler_ssp5 | <img src="figures/States/Divergence_Maps_rcp45cooler_ssp5_vs_rcp45cooler_ssp3.png.png" width="50"> |
