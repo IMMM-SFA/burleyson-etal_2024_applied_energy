@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# burleyson-etal_2023_tbd
+# burleyson-etal_2023_applied_energy
 
 **When Do Different Scenarios of Projected Electricity Demand Start to Meaningfully Diverge?**
 
