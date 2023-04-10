@@ -31,11 +31,11 @@ only after 50+ years.
 
 ## Journal reference
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). When do different scenarios of projected 
-electricity demand start to meaningfully diverge? Submitted to *TBD* - April 2023.
+electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - April 2023.
 
 ## Code reference
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
-TBD [Code]. Zenodo. TBD.
+Applied Energy [Code]. Zenodo. TBD.
 
 ## Data references
 
