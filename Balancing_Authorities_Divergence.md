@@ -1,7 +1,7 @@
 # Balancing Authority Divergence Years
 >
 In this next table we show the year of divergence (e.g., the first year in which the loads differ by more than 5% 
-between a pair of scenarios) for each BA and scenario pair. NaN values indicate scenarios that never meaningfully 
+between a pair of scenarios) for each BA and scenario pair. nan values indicate scenarios that never meaningfully 
 diverge from one another.
 >
 | BA | rcp45cooler_ssp5 vs rcp45cooler_ssp3 | rcp45hotter_ssp5 vs rcp45hotter_ssp3 | rcp85cooler_ssp5 vs rcp85cooler_ssp3 | rcp85hotter_ssp5 vs rcp85hotter_ssp3 | rcp85cooler_ssp3 vs rcp45cooler_ssp3 | rcp85hotter_ssp3 vs rcp45hotter_ssp3 | rcp85cooler_ssp5 vs rcp45cooler_ssp5 | rcp85hotter_ssp5 vs rcp45hotter_ssp5 | rcp45hotter_ssp3 vs rcp45cooler_ssp3 | rcp45hotter_ssp5 vs rcp45cooler_ssp5 | rcp85hotter_ssp3 vs rcp85cooler_ssp3 | rcp85hotter_ssp5 vs rcp85cooler_ssp5 |
