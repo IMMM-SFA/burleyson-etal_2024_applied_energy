@@ -14,24 +14,25 @@ Casey D. Burleyson<sup>1\*</sup>, Misha Kulshresta<sup>1,2</sup>, Zarrar Khan<su
 \* corresponding author: casey.burleyson@pnnl.gov
 
 ## Abstract
-Climate and population change are known to influence electricity demand, but what is the impact of uncertainty in 
-climate and population scenarios on electricity demand in the United States (U.S.) over the next 30 years? This question 
-has implications for investment decisions in the energy sector, which are typically made using a 15- to 30-year time 
-horizon. If future climate and population scenarios do not lead to electricity demands that are distinctly different 
-within the first 30 years then, for the purposes of investment decisions, it may not matter which potential pathway we 
-are most likely on. The Integrated, Multisector, Multiscale Modeling (IM3) project has generated a wide yet plausible 
-range of 21st century climate and socioeconomic scenarios for the U.S. The IM3 projections span two population/economic 
-scenarios (Shared Socioeconomic Pathways 3 and 5) and two climate scenarios (Representative Concentration Pathways 4.5 
-and 8.5). For each of the climate scenarios, we reflect a range of climate model uncertainty by utilizing warming levels 
-from groups of climate models that are hotter and colder than the multi-model mean. In total there are eight (2 x 2 x 2) 
-scenarios. This work explores a basic but important question: When do projected electricity demands start to 
-meaningfully diverge across the eight scenarios? We show that the choice of socioeconomic scenario matters almost 
-immediately, climate scenario matters within 25-30 years, and whether to use hotter or cooler climate models matters 
-only after 50+ years.
+Climate and socioeconomic changes are known to influence electricity demand projections, but what is the impact of 
+uncertainty in climate and socioeconomic scenarios on electricity demand in the United States (U.S.) over the next 
+30 years? This question has implications for investment decisions in the energy sector, which are typically made using 
+a 15- to 30-year time horizon. If future climate and socioeconomic scenarios do not lead to electricity demands that 
+are distinctly different within the first 30 years then, for the purposes of investment decisions, it may not matter 
+which potential climate or socioeconomic pathway we are most likely on. The Integrated Multisector Multiscale Modeling 
+(IM3) project has generated a wide yet plausible range of 21st century climate and socioeconomic scenarios for the U.S. 
+The projections span two population/economic scenarios (Shared Socioeconomic Pathways 3 and 5) and two climate 
+scenarios (Representative Concentration Pathways 4.5 and 8.5). For each of the climate scenarios, we reflect a range of 
+climate model uncertainty by utilizing warming levels from groups of climate models that are hotter and colder than the 
+multi-model mean. In total there are eight (2 x 2 x 2) scenarios. This work explores a basic but important question: 
+When do projected electricity demands start to meaningfully diverge across the eight scenarios spanning a range of 
+climate and socioeconomic drivers? We show that the choice of socioeconomic scenario matters almost immediately, 
+climate scenario matters within 25-30 years, and whether to use hotter or cooler climate models matters only after 
+50+ years.
 
 ## Journal reference
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). When do different scenarios of projected 
-electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - April 2023.
+electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - September 2023.
 
 ## Code reference
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
@@ -40,22 +41,21 @@ Applied Energy [Code]. Zenodo. TBD.
 ## Data references
 
 ### Input data
-|       Dataset       |               Repository Link                |               DOI                |
-|:-------------------:|:--------------------------------------------:|:--------------------------------:|
-|   GCAM-USA Output   |                     TBD                      |               TBD                |
+|       Dataset       |                                   Repository Link                                    |               DOI                |
+|:-------------------:|:------------------------------------------------------------------------------------:|:--------------------------------:|
+|   GCAM-USA Output   | https://data.msdlive.org/records/43sy2-n8y47 | https://doi.org/10.57931/1989373 |
 | TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
 |    Dataset    | Repository Link | DOI |
 |:-------------:|:---------------:|:---:|
 |  TELL Output  |       TBD       | TBD |
-| Analysis Data |       TBD       | TBD |
 
 ## Contributing modeling software
-|  Model   | Version |                                              Repository Link                                               | DOI |
-|:--------:|:-------:|:----------------------------------------------------------------------------------------------------------:|:---:|
-| GCAM-USA |  v5.3   |https://stash.pnnl.gov/projects/JGCRI/repos/gcam-core/browse?at=refs%2Fheads%2Fzk%2Ffeature%2Fgcam-usa-im3  | TBD |
-|   TELL   |  v1.1   |                                      https://github.com/IMMM-SFA/tell                                      | TBD |
+|  Model   | Version |         Repository Link          | DOI |
+|:--------:|:-------:|:--------------------------------:|:---:|
+| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
+|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
 
 ## Reproduce my experiment
 Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
