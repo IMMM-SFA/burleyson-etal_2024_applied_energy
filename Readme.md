@@ -36,7 +36,7 @@ Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2023). When d
 electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - December 2023.
 
 ## Code reference
-Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
+Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
 Applied Energy [Code]. Zenodo. TBD.
 
 ## Data references
