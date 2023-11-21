@@ -3,9 +3,9 @@
 | Name | Acronym | Service Territory | Time Series | Scenario Differences |
 | :-: | :-: | :-: | :-: | :-: |
 | PowerSouth Energy Cooperative | AEC | <img src="figures/Balancing_Authorities/BA_Service_Territory_AEC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Projections_AEC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AEC.png" width="50"> |
-#| AECI | <img src="figures/Balancing_Authorities/BA_Load_Projections_AECI.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AECI.png" width="50"> |
-#| AVA | <img src="figures/Balancing_Authorities/BA_Load_Projections_AVA.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AVA.png" width="50"> |
-#| AZPS | <img src="figures/Balancing_Authorities/BA_Load_Projections_AZPS.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AZPS.png" width="50"> |
+| Associated Electric Cooperative Incorporated | AECI | <img src="figures/Balancing_Authorities/BA_Service_Territory_AECI.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Projections_AECI.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AECI.png" width="50"> |
+| Avista Corporation | AVA | <img src="figures/Balancing_Authorities/BA_Service_Territory_AVA.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Projections_AVA.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AVA.png" width="50"> |
+| Arizona Public Service Company | AZPS | <img src="figures/Balancing_Authorities/BA_Service_Territory_AZPS.png" width="50"> |<img src="figures/Balancing_Authorities/BA_Load_Projections_AZPS.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AZPS.png" width="50"> |
 #| BANC | <img src="figures/Balancing_Authorities/BA_Load_Projections_BANC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_BANC.png" width="50"> |
 #| BPAT | <img src="figures/Balancing_Authorities/BA_Load_Projections_BPAT.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_BPAT.png" width="50"> |
 #| CHPD | <img src="figures/Balancing_Authorities/BA_Load_Projections_CHPD.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_CHPD.png" width="50"> |
