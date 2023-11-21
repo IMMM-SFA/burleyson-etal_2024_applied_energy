@@ -39,26 +39,27 @@ electricity demand start to meaningfully diverge? Submitted to *Applied Energy* 
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
 Applied Energy [Code]. Zenodo. TBD.
 
-## Data references
+## Contributing modeling software
+|  Model   | Version |         Repository Link          | DOI |
+|:--------:|:-------:|:--------------------------------:|:---:|
+| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
+|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
 
+## Data references
 ### Input data
 |       Dataset       |               Repository Link                |               DOI                |
 |:-------------------:|:--------------------------------------------:|:--------------------------------:|
 |   GCAM-USA Output   | https://data.msdlive.org/records/43sy2-n8y47 | https://doi.org/10.57931/1989373 |
 | TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
-
 ### Output data
-|    Dataset    | Repository Link | DOI |
-|:-------------:|:---------------:|:---:|
-|  TELL Output  |       TBD       | TBD |
+The output of the TELL model is stored in the data repository linked below. The post-processed files (resulting from the
+analysis scripts itemized below) are stored in the /data directory in this meta-repository.
 
-
-## Contributing modeling software
-|  Model   | Version |         Repository Link          | DOI |
-|:--------:|:-------:|:--------------------------------:|:---:|
-| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
-|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
+|       Dataset       |                                Repository Link                                | DOI |
+|:-------------------:|:-----------------------------------------------------------------------------:|:---:|
+|     TELL Output     |                                      TBD                                      | TBD |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2023_applied_energy/tree/main/data | TBD |
 
 
 ## Reproduce my experiment
@@ -66,7 +67,7 @@ Use the following notebooks to rerun the TELL model to produce the output data u
 
 |                Script Name                 |                                Description                                 |
 |:------------------------------------------:|:--------------------------------------------------------------------------:|
-|                 TELL runs                  |                             Run the TELL model                             |
+|        tell_runs_exp_group_b.ipynb         | Runs the TELL model based on the GCAM-USA outputs and TGW weather forcing  |
  | interconnection_time_series_analysis.ipynb |   Processes the time series of annual and total loads by interconnection   |
 |       ba_time_series_analysis.ipynb        | Processes the time series of annual and total loads by Balancing Authority |
 |      state_time_series_analysis.ipynb      |        Processes the time series of annual and total loads by state        |
