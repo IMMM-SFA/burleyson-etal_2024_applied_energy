@@ -62,7 +62,9 @@ Applied Energy [Code]. Zenodo. TBD.
 Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
 
 | Script Name | Description |
-|-------------|-------------|
+|:-----------:|:-----------:|
+| TELL runs   | Run the TELL model |
+ | interconnection_time_series_analysis.ipynb | Processes the time series of annual and total loads by interconnection |
 
 ## Reproduce my figures
 Use the following notebooks to reproduce the figures used in this publication.
