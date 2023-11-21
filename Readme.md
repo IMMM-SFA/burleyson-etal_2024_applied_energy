@@ -80,8 +80,8 @@ Use the following notebooks to reproduce the main and supplementary figures used
 |       3        | interconnection_time_series_analysis.ipynb |   Analyzes the time series of annual total and peak loads by interconnection   |
 |       4        |       ba_time_series_analysis.ipynb        | Analyzes the time series of annual total and peak loads by Balancing Authority |
 |  Supplemental  |      state_time_series_analysis.ipynb      |        Analyzes the time series of annual total and peak loads by state        |
-|       5        |        ba_divergence_analysis.ipynb        |       Analyzes the pairwise scenario differences by Balancing Authority        |
-|  Supplemental  |      state_divergence_analysis.ipynb       |              Analyzes the pairwise scenario differences by state               |
+|      5, 6      |        ba_divergence_analysis.ipynb        |       Analyzes the pairwise scenario differences by Balancing Authority        |
+|       7        |      state_divergence_analysis.ipynb       |              Analyzes the pairwise scenario differences by state               |
 
 
 ## Supplemental figures
