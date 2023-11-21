@@ -2,7 +2,7 @@
 >
 | Name | Acronym | Service Territory | Time Series | Scenario Differences |
 | :-: | :-: | :-: | :-: | :-: |
-| Test | AEC | Test | <img src="figures/Balancing_Authorities/BA_Load_Projections_AEC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AEC.png" width="50"> |
+| PowerSouth Energy Cooperative | AEC | <img src="figures/Balancing_Authorities/BA_Service_Territory_AEC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Projections_AEC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AEC.png" width="50"> |
 #| AECI | <img src="figures/Balancing_Authorities/BA_Load_Projections_AECI.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AECI.png" width="50"> |
 #| AVA | <img src="figures/Balancing_Authorities/BA_Load_Projections_AVA.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AVA.png" width="50"> |
 #| AZPS | <img src="figures/Balancing_Authorities/BA_Load_Projections_AZPS.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_AZPS.png" width="50"> |
