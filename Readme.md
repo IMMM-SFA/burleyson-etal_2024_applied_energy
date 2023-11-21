@@ -47,16 +47,19 @@ Applied Energy [Code]. Zenodo. TBD.
 |   GCAM-USA Output   | https://data.msdlive.org/records/43sy2-n8y47 | https://doi.org/10.57931/1989373 |
 | TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
+
 ### Output data
 |    Dataset    | Repository Link | DOI |
 |:-------------:|:---------------:|:---:|
 |  TELL Output  |       TBD       | TBD |
+
 
 ## Contributing modeling software
 |  Model   | Version |         Repository Link          | DOI |
 |:--------:|:-------:|:--------------------------------:|:---:|
 | GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
 |   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
+
 
 ## Reproduce my experiment
 Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
@@ -69,6 +72,7 @@ Use the following notebooks to rerun the TELL model to produce the output data u
 |      state_time_series_analysis.ipynb      |        Processes the time series of annual and total loads by state        |
 |        ba_divergence_analysis.ipynb        |     Processes the pairwise scenario differences by Balancing Authority     |
 |      state_divergence_analysis.ipynb       |            Processes the pairwise scenario differences by state            |
+|        ba_peakiness_analysis.ipynb         |       Processes the change in load peakiness by Balancing Authority        |
 
 
 ## Reproduce my figures
@@ -82,6 +86,8 @@ Use the following notebooks to reproduce the main and supplementary figures used
 |  Supplemental  |      state_time_series_analysis.ipynb      |        Analyzes the time series of annual total and peak loads by state        |
 |      5, 6      |        ba_divergence_analysis.ipynb        |       Analyzes the pairwise scenario differences by Balancing Authority        |
 |       7        |      state_divergence_analysis.ipynb       |              Analyzes the pairwise scenario differences by state               |
+|       8        |        peakiness_calculation.ipynb         |              Shows how the change in load peakiness is calculated              |
+|       9        |        ba_peakiness_analysis.ipynb         |          Analyzes the change in load peakiness by Balancing Authority          |
 
 
 ## Supplemental figures
