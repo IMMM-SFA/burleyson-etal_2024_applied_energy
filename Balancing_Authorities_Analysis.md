@@ -56,11 +56,4 @@
 | WACM | <img src="figures/Balancing_Authorities/BA_Load_Projections_WACM.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_WACM.png" width="50"> |
 | WALC | <img src="figures/Balancing_Authorities/BA_Load_Projections_WALC.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_WALC.png" width="50"> |
 | WAUW | <img src="figures/Balancing_Authorities/BA_Load_Projections_WAUW.png" width="50"> | <img src="figures/Balancing_Authorities/BA_Load_Difference_WAUW.png" width="50"> |
->
-In the next table we show the year of divergence (e.g., the first year in which the loads differ by more than 5% 
-between a pair of scenarios) for each BA and scenario pair.
->
-| BA | A | B | C | D | E | F | G | H | I | J | K | L |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| AEC  |  2035 |  2035 |  2035 |  2035 |  2055 |  2055 |  2070 |  2070 |   nan |    nan |   2085 |   2080 |
-| AECI |  2035 |  2035 |  2035 |  2035 |  2050 |  2050 |  2080 |  2065 |   nan |    nan |   2060 |   2060 |
+
