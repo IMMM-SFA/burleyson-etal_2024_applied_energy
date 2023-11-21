@@ -2,8 +2,8 @@
 .DS_Store
 
 # Directories
-/.idea/
-.idea/
+/.idea/*
+.idea/*
 
 # -----------------
 # ---- PYTHON -----
