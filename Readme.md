@@ -61,20 +61,21 @@ Applied Energy [Code]. Zenodo. TBD.
 ## Reproduce my experiment
 Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
 
-| Script Name | Description |
-|:-----------:|:-----------:|
-| TELL runs   | Run the TELL model |
+|                Script Name                 |                              Description                               |
+|:------------------------------------------:|:----------------------------------------------------------------------:|
+|                 TELL runs                  |                           Run the TELL model                           |
  | interconnection_time_series_analysis.ipynb | Processes the time series of annual and total loads by interconnection |
+|      state_time_series_analysis.ipynb      |      Processes the time series of annual and total loads by state      |
 
 ## Reproduce my figures
-Use the following notebooks to reproduce the figures used in this publication.
+Use the following notebooks to reproduce the main and supplementary figures used in this publication.
 
-|                Script Name                 |                                Description                                 | Figure Numbers |
-|:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
-|        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |       2        |
-| interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |       3        |
-|      state_time_series_analysis.ipynb      |      Analyzes the time series of annual total and peak loads by state      |      TBD       |
-|      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
+| Figure Numbers |                Script Name                 |                                Description                                 | 
+|:--------------:|:------------------------------------------:|:--------------------------------------------------------------------------:|
+|       2        |        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |
+|       3        | interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |
+|      N/A       |      state_time_series_analysis.ipynb      |      Analyzes the time series of annual total and peak loads by state      |
+|                |      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |
 
 ## Supplementary figures
 These landing pages show the complete results for each state and Balancing Authority (BA).
@@ -83,6 +84,8 @@ These landing pages show the complete results for each state and Balancing Autho
 [BA-Level Analyses](Balancing_Authorities_Analysis.md)
 
 Random other figures that might be useful:
-| Description | Figure |
-| :-: | :-: |
+
+|              Description               |                                    Figuree                                     |
+|:--------------------------------------:|:------------------------------------------------------------------------------:|
 | Normalized interconnection time series | <img src="figures/Interconnection_Load_Projections_Normalized.png" width="50"> |
+|      State load change box plots       |   <img src="figures/States/State_Load_Change_Distributions.png" width="50">    |
