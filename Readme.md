@@ -90,6 +90,7 @@ Use the following notebooks to reproduce the main and supplementary figures used
 |       7        |      state_divergence_analysis.ipynb       |              Analyzes the pairwise scenario differences by state               |
 |       8        |        peakiness_calculation.ipynb         |              Shows how the change in load peakiness is calculated              |
 |       9        |        ba_peakiness_analysis.ipynb         |          Analyzes the change in load peakiness by Balancing Authority          |
+|  Supplemental  |      plot_ba_service_territory.ipynb       |            Plots the service territory for each Balancing Authority            |
 
 
 ## Supplemental figures
