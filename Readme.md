@@ -69,8 +69,8 @@ Use the following notebooks to reproduce the figures used in this publication.
 
 |                Script Name                 |                                Description                                 | Figure Numbers |
 |:------------------------------------------:|:--------------------------------------------------------------------------:|:--------------:|
-|        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |      TBD       |
-| interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |      TBD       |
+|        difference_calculation.ipynb        |           Shows how the mean and peak differences are calculated           |       2        |
+| interconnection_time_series_analysis.ipynb | Analyzes the time series of annual total and peak loads by interconnection |       3        |
 |      state_time_series_analysis.ipynb      |      Analyzes the time series of annual total and peak loads by state      |      TBD       |
 |      state_divergence_analysis.ipynb       |             Analyzes the evolution of load divergence by state             |      TBD       |
 
@@ -79,3 +79,8 @@ These landing pages show the complete results for each state and Balancing Autho
 
 [State-Level Analyses](States_Analysis.md)  
 [BA-Level Analyses](Balancing_Authorities_Analysis.md)
+
+Random other figures that might be useful:
+| Description | Figure |
+| :-: | :-: |
+| Normalized interconnection time series | <img src="figures/Interconnection_Load_Projections_Normalized.png" width="50"> |
