@@ -8,7 +8,7 @@ Casey D. Burleyson<sup>1\*</sup>, Zarrar Khan<sup>1,2</sup>, Misha Kulshresta<su
 Nathalie Voisin<sup>1,4</sup>, and Jennie S. Rice<sup>1</sup>
 
 <sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA  
-<sup>2 </sup> Joint Global Change Research Institute, College Park, MD, USA
+<sup>2 </sup> Joint Global Change Research Institute, College Park, MD, USA  
 <sup>3 </sup> University of California - Santa Barbara, Santa Barbara, CA, USA  
 <sup>4 </sup> University of  Washington, Seattle, WA, USA  
 
