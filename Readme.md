@@ -39,12 +39,6 @@ electricity demand start to meaningfully diverge? Submitted to *Applied Energy* 
 Burleyson, C.D., M. Kulshresta, Z. Khan, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
 Applied Energy [Code]. Zenodo. TBD.
 
-## Contributing modeling software
-|  Model   | Version |         Repository Link          | DOI |
-|:--------:|:-------:|:--------------------------------:|:---:|
-| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
-|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
-
 ## Data references
 ### Input data
 |       Dataset       |               Repository Link                |               DOI                |
@@ -62,8 +56,15 @@ analysis scripts itemized below) are stored in the /data directory in this meta-
 | Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2023_applied_energy/tree/main/data | TBD |
 
 
+## Contributing modeling software
+|  Model   | Version |         Repository Link          | DOI |
+|:--------:|:-------:|:--------------------------------:|:---:|
+| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
+|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
+
+
 ## Reproduce my experiment
-Use the following notebooks to rerun the TELL model to produce the output data used in this analysis.
+Use the following notebooks to rerun the TELL model and produce the post-processed data used in this analysis.
 
 |                Script Name                 |                                Description                                 |
 |:------------------------------------------:|:--------------------------------------------------------------------------:|
