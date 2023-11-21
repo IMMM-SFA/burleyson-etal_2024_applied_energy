@@ -1,5 +1,8 @@
-# sys files
+# System files
 .DS_Store
+
+# Directories
+/.idea
 
 # -----------------
 # ---- PYTHON -----
