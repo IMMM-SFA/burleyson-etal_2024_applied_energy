@@ -81,7 +81,7 @@ Use the following notebooks to reproduce the main and supplementary figures used
 |       4        |       ba_time_series_analysis.ipynb        | Analyzes the time series of annual total and peak loads by Balancing Authority |
 |  Supplemental  |      state_time_series_analysis.ipynb      |        Analyzes the time series of annual total and peak loads by state        |
 |       5        |        ba_divergence_analysis.ipynb        |       Analyzes the pairwise scenario differences by Balancing Authority        |
-|  Supplemental  |      state_divergence_analysis.ipynb       |               Analyzes the evolution of load divergence by state               |
+|  Supplemental  |      state_divergence_analysis.ipynb       |              Analyzes the pairwise scenario differences by state               |
 
 
 ## Supplemental figures
@@ -92,9 +92,9 @@ These landing pages show the complete results for each state and Balancing Autho
 
 Random other figures that might be useful:
 
-|                Description                 |                                     Figure                                      |
-|:------------------------------------------:|:-------------------------------------------------------------------------------:|
-|   Normalized interconnection time series   | <img src="figures/Interconnection_Load_Projections_Normalized.png" width="50">  |
-|        State load change box plots         |    <img src="figures/States/State_Load_Change_Distributions.png" width="50">    |
-|         State divergence box plots         |  <img src="figures/States/State_Load_Divergence_Distributions.png" width="50">  |
-| Comparison of peak load definition methods | <img src="figures/Balancing_Authorities/Peak_Method_Comparison.png" width="50"> |
+|                Description                 |                                        Figure                                         |
+|:------------------------------------------:|:-------------------------------------------------------------------------------------:|
+|   Normalized interconnection time series   | <img src="figures/Random/Interconnection_Load_Projections_Normalized.png" width="50"> |
+|        State load change box plots         |       <img src="figures/States/State_Load_Change_Distributions.png" width="50">       |
+|         State divergence box plots         |     <img src="figures/States/State_Load_Divergence_Distributions.png" width="50">     |
+| Comparison of peak load definition methods |    <img src="figures/Balancing_Authorities/Peak_Method_Comparison.png" width="50">    |
