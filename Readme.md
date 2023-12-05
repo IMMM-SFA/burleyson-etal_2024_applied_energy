@@ -49,10 +49,10 @@ Applied Energy [Code]. Zenodo. TBD.
 The output of the TELL model is stored in the data repository linked below. The post-processed files (resulting from the
 analysis scripts itemized below) are stored in the /data directory in this meta-repository.
 
-|       Dataset       |                                Repository Link                                | DOI |
-|:-------------------:|:-----------------------------------------------------------------------------:|:---:|
-|     TELL Output     |                                      TBD                                      | https://doi.org/10.57931/2228460 |
-| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2023_applied_energy/tree/main/data | TBD |
+|       Dataset       |                                Repository Link                                |               DOI                |
+|:-------------------:|:-----------------------------------------------------------------------------:|:--------------------------------:|
+|     TELL Output     |                 https://data.msdlive.org/records/r0rvc-kjw89                  | https://doi.org/10.57931/2228460 |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2023_applied_energy/tree/main/data |               TBD                |
 
 
 ## Contributing modeling software
