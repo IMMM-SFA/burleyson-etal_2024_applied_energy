@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10278502.svg)](https://doi.org/10.5281/zenodo.10278502)
 
-# burleyson-etal_2023_applied_energy
+# burleyson-etal_2024_applied_energy
 
 **When Do Different Scenarios of Projected Electricity Demand Start to Meaningfully Diverge?**
 
@@ -31,11 +31,11 @@ model uncertainty matters only after 50+ years. This work can inform the power s
 change uncertainties into their decision-making.
 
 ## Journal reference
-Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2023). When do different scenarios of projected 
-electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - December 2023.
+Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2024). When do different scenarios of projected 
+electricity demand start to meaningfully diverge? In revision in *Applied Energy* - February 2024.
 
 ## Code reference
-Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2023). Supporting code for Burleyson et al. 2023 - 
+Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2024). Supporting code for Burleyson et al. 2024 - 
 Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.10278502.
 
 ## Data references
