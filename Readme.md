@@ -30,7 +30,7 @@ Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.10278502.
 ### Input data
 |       Dataset       |               Repository Link                |               DOI                |
 |:-------------------:|:--------------------------------------------:|:--------------------------------:|
-|   GCAM-USA Output   | https://data.msdlive.org/records/43sy2-n8y47 | https://doi.org/10.57931/1989373 |
+|   GCAM-USA Output   | - | - |
 | TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
@@ -39,8 +39,8 @@ analysis scripts itemized below) are stored in the /data directory in this meta-
 
 |       Dataset       |                                Repository Link                                |                   DOI                   |
 |:-------------------:|:-----------------------------------------------------------------------------:|:---------------------------------------:|
-|     TELL Output     |                 https://data.msdlive.org/records/r0rvc-kjw89                  |    https://doi.org/10.57931/2228460     |
-| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2023_applied_energy/tree/main/data | https://doi.org/10.5281/zenodo.10278502 |
+|     TELL Output     |                -                  |    -     |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data | - |
 
 
 ## Contributing modeling software
