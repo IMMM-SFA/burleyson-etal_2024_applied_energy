@@ -5,7 +5,7 @@
 **When Do Different Scenarios of Projected Electricity Demand Start to Meaningfully Diverge?**
 
 Casey D. Burleyson<sup>1\*</sup>, Zarrar Khan<sup>1,2,3</sup>, Misha Kulshresta<sup>1,4,5</sup>, 
-Nathalie Voisin<sup>1,4</sup>, Mengqi Zhao<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
+Nathalie Voisin<sup>1,5</sup>, Mengqi Zhao<sup>1</sup>, and Jennie S. Rice<sup>1</sup>
 
 <sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA  
 <sup>2 </sup> Joint Global Change Research Institute, College Park, MD, USA  
