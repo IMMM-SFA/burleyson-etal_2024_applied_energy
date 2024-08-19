@@ -20,39 +20,39 @@ Resource adequacy studies look at balancing electricity supply and demand on 10-
 
 ## Journal reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, M. Zhao, and J.S. Rice (2024). When do different scenarios of projected 
-electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - July 2024.
+electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - August 2024.
 
 ## Code reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, M. Zhao, and J.S. Rice (2024). Supporting code for Burleyson et al. 2024 - 
-Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.10278502.
+Applied Energy [Code]. Zenodo. TBD.
 
 ## Data references
 ### Input data
 |       Dataset       |               Repository Link                |               DOI                |
 |:-------------------:|:--------------------------------------------:|:--------------------------------:|
-|   GCAM-USA Output   | - | - |
+|   GCAM-USA Output   | https://data.msdlive.org/records/yb23g-44274 | https://doi.org/10.57931/2428940 |
 | TGW Weather Forcing | https://data.msdlive.org/records/cnsy6-0y610 | https://doi.org/10.57931/1960530 |
 
 ### Output data
 The output of the TELL model is stored in the data repository linked below. The post-processed files (resulting from the
 analysis scripts itemized below) are stored in the /data directory in this meta-repository.
 
-|       Dataset       |                                Repository Link                                |                   DOI                   |
-|:-------------------:|:-----------------------------------------------------------------------------:|:---------------------------------------:|
-|     TELL Output     |                -                  |    -     |
-| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data | - |
+|       Dataset       |                                Repository Link                                |                DOI                |
+|:-------------------:|:-----------------------------------------------------------------------------:|:---------------------------------:|
+|     TELL Output     |                https://data.msdlive.org/records/tx5c8-83433                   | https://doi.org/10.57931/2432465  |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data |                 -                 |
 
 
 ## Contributing modeling software
-|  Model   | Version |         Repository Link          | DOI |
-|:--------:|:-------:|:--------------------------------:|:---:|
-| GCAM-USA |  v5.3   | https://data.msdlive.org/records/r52tb-hez28 | https://doi.org/10.57931/1960381 |
-|   TELL   |  v1.1   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.8264217 |
+|  Model   | Version | Repository Link | DOI |
+|:--------:|:-------:|:---------------:|:---:|
+| GCAM-USA |  v5.3   |       TBD       | TBD |
+|   TELL   |  v1.2   |       TBD       | TBD |
 
 
 ## Reproduce my experiment
 Clone this repository to get access to the notebooks used to execute the TELL runs for this experiment. You'll also need 
-to download the input files from the accompanying data repository (https://doi.org/10.57931/2228460) and the weather 
+to download the input files from the accompanying data repository (https://doi.org/10.57931/2432465) and the weather 
 forcing data (https://doi.org/10.57931/1960530). Once you have the input datasets downloaded you can use the following 
 notebooks to rerun the TELL model and produce the post-processed data used in this analysis. For the TELL runs you 
 should only have to adjust the input directories to reflect the paths to wherever you choose to store the input files. 
