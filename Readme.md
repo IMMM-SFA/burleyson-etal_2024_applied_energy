@@ -47,7 +47,7 @@ analysis scripts itemized below) are stored in the /data directory in this meta-
 |  Model   | Version | Repository Link | DOI |
 |:--------:|:-------:|:---------------:|:---:|
 | GCAM-USA |  v5.3   |       TBD       | TBD |
-|   TELL   |  v1.2   |       TBD       | TBD |
+|   TELL   |  v1.2   | https://github.com/IMMM-SFA/tell | TBD |
 
 
 ## Reproduce my experiment
