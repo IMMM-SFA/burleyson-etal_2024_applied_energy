@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10278502.svg)](https://doi.org/10.5281/zenodo.10278502)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13357402.svg)](https://doi.org/10.5281/zenodo.13357402)
 
 # burleyson-etal_2024_applied_energy
 
@@ -25,7 +25,7 @@ electricity demand start to meaningfully diverge? Submitted to *Applied Energy* 
 
 ## Code reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, M. Zhao, and J.S. Rice (2024). Supporting code for Burleyson et al. 2024 - 
-Applied Energy [Code]. Zenodo. TBD.
+Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.13357402.
 
 ## Data references
 ### Input data
@@ -41,7 +41,7 @@ analysis scripts itemized below) are stored in the /data directory in this meta-
 |       Dataset       |                                Repository Link                                |                DOI                |
 |:-------------------:|:-----------------------------------------------------------------------------:|:---------------------------------:|
 |     TELL Output     |                https://data.msdlive.org/records/tx5c8-83433                   | https://doi.org/10.57931/2432465  |
-| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data |                 TBD               |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data | https://doi.org/10.5281/zenodo.13357402 |
 
 
 ## Contributing modeling software
