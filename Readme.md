@@ -18,6 +18,7 @@ Nathalie Voisin<sup>1,5</sup>, Mengqi Zhao<sup>1</sup>, and Jennie S. Rice<sup>1
 ## Abstract
 Resource adequacy studies look at balancing electricity supply and demand on 10- to 15-year time horizons while asset investment planning typically evaluates returns on 20- to 40-year time horizons. Projections of electricity demand are factored into the decision-making in both cases. Climate, energy policy, and socioeconomic changes are key uncertainties known to influence electricity demands, but their relative importance for demands over the next 10-40 years is unclear. The power sector would benefit from a better understanding of the need to characterize these uncertainties for resource adequacy and investment planning. In this study, we quantify when projected United States (U.S.) electricity demands start to meaningfully diverge in response to a range of climate, energy policy, and socioeconomic drivers. We use a wide yet plausible range of 21st century scenarios for the U.S. The projections span two population/economic growth scenarios (Shared Socioeconomic Pathways 3 and 5) and two climate/energy policy scenarios, one including climate mitigation policies and one without (Representative Concentration Pathways 4.5 and 8.5). Each climate/energy policy scenario has two warming levels to reflect a range of climate model uncertainty. We show that the socioeconomic scenario matters almost immediately – within the next 10 years, the climate/policy scenario matters within 25-30 years, and the climate model uncertainty matters only after 50+ years. This work can inform the power sector working to integrate climate change uncertainties into their decision-making.
 
+
 ## Journal reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, M. Zhao, and J.S. Rice (2024). When do different scenarios of projected 
 electricity demand start to meaningfully diverge? Submitted to *Applied Energy* - August 2024.
@@ -40,14 +41,14 @@ analysis scripts itemized below) are stored in the /data directory in this meta-
 |       Dataset       |                                Repository Link                                |                DOI                |
 |:-------------------:|:-----------------------------------------------------------------------------:|:---------------------------------:|
 |     TELL Output     |                https://data.msdlive.org/records/tx5c8-83433                   | https://doi.org/10.57931/2432465  |
-| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data |                 -                 |
+| Post-Processed Data | https://github.com/IMMM-SFA/burleyson-etal_2024_applied_energy/tree/main/data |                 TBD               |
 
 
 ## Contributing modeling software
 |  Model   | Version | Repository Link | DOI |
 |:--------:|:-------:|:---------------:|:---:|
-| GCAM-USA |  v5.3   |       TBD       | TBD |
-|   TELL   |  v1.2   | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.13351992 |
+| GCAM-USA | v5.3 |       TBD       | PENDING: https://doi.org/10.57931/2433819 |
+|   TELL   | v1.2.1 | https://github.com/IMMM-SFA/tell | https://doi.org/10.5281/zenodo.13354910 |
 
 
 ## Reproduce my experiment
