@@ -97,6 +97,7 @@ Random other figures that might be useful:
 
 |                Description                 |                                        Figure                                         |
 |:------------------------------------------:|:-------------------------------------------------------------------------------------:|
+| Approximate interconnection locations: Green = Western, Red = Eastern, Blue = ERCOT | <img src="figures/Random/Interconnections_Map.png" width="50"> |
 |   Normalized interconnection time series   | <img src="figures/Random/Interconnection_Load_Projections_Normalized.png" width="50"> |
 |        State load change box plots         |       <img src="figures/States/State_Load_Change_Distributions.png" width="50">       |
 |         State divergence box plots         |     <img src="figures/States/State_Load_Divergence_Distributions.png" width="50">     |
