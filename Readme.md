@@ -32,7 +32,7 @@ change uncertainties into their decision-making.
 
 ## Journal reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2024). When do different scenarios of projected 
-electricity demand start to meaningfully diverge? In revision in *Applied Energy* - February 2024.
+electricity demand start to meaningfully diverge? In revision in *Applied Energy* - October 2024.
 
 ## Code reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2024). Supporting code for Burleyson et al. 2024 - 
