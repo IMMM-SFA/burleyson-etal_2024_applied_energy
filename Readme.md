@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10278502.svg)](https://doi.org/10.5281/zenodo.10278502)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13952373.svg)](https://doi.org/10.5281/zenodo.13952373)
 
 # burleyson-etal_2024_applied_energy
 
@@ -36,7 +36,7 @@ electricity demand start to meaningfully diverge? In revision in *Applied Energy
 
 ## Code reference
 Burleyson, C.D., Z. Khan, M. Kulshresta, N. Voisin, and J.S. Rice (2024). Supporting code for Burleyson et al. 2024 - 
-Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.10278502.
+Applied Energy [Code]. Zenodo. https://doi.org/10.5281/zenodo.13952373.
 
 ## Data references
 ### Input data
